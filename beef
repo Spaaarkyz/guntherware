@@ -30,7 +30,7 @@ end
 
 function Library:CreateWindow(title, color)
     title = title or "Sparkyz Lib"
-    color = color and Library:GetColor(color) or Color3.fromRGB(0, 181, 26)
+    color = color and Library:GetColor(color) or Color3.fromRGB(0, 150, 255)
 
     -- Window Main
     local WinTypes = {}
